@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Какой-то шифр.5</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<div class="container">
+    <h1>RSA</h1>
+    <div class="input-group">
+        <textarea id="key" rows="4" placeholder="Публичный ключ: e, n&#10;Приватный ключ: d, n"></textarea>
+    </div>
+    <div class="input-group">
+        <textarea id="text" rows="6" placeholder="Введите текст"></textarea>
+    </div>
+    <div class="button-group">
+        <button id="generate-key">Сгенерировать ключи</button>
+        <button id="encrypt">Зашифровать</button>
+        <button id="decrypt">Расшифровать</button>
+        <button id="clear">Очистить</button>
+    </div>
+</div>
+<script src="main.js"></script>
+<script src="BigInteger.min.js"></script>
+</html>
